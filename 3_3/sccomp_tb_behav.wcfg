@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sccomp_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sccomp_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="946500000fs"></ZoomStartTime>
+      <ZoomEndTime time="2216295520fs"></ZoomEndTime>
+      <Cursor1Time time="1154109000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/sccomp_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/inst_in" type="array">
+      <obj_property name="ElementShortName">inst_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/Imm12" type="array">
+      <obj_property name="ElementShortName">Imm12[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm12[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/Imm32" type="array">
+      <obj_property name="ElementShortName">Imm32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/RD2" type="array">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/immout" type="array">
+      <obj_property name="ElementShortName">immout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/iimm_shamt" type="array">
+      <obj_property name="ElementShortName">iimm_shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">iimm_shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/iimm" type="array">
+      <obj_property name="ElementShortName">iimm[11:0]</obj_property>
+      <obj_property name="ObjectShortName">iimm[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/simm" type="array">
+      <obj_property name="ElementShortName">simm[11:0]</obj_property>
+      <obj_property name="ObjectShortName">simm[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/bimm" type="array">
+      <obj_property name="ElementShortName">bimm[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bimm[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/uimm" type="array">
+      <obj_property name="ElementShortName">uimm[19:0]</obj_property>
+      <obj_property name="ObjectShortName">uimm[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/jimm" type="array">
+      <obj_property name="ElementShortName">jimm[19:0]</obj_property>
+      <obj_property name="ObjectShortName">jimm[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_EXT/EXTOp" type="array">
+      <obj_property name="ElementShortName">EXTOp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">EXTOp[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_ctrl/EXTOp" type="array">
+      <obj_property name="ElementShortName">EXTOp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">EXTOp[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_RF/rf" type="array">
+      <obj_property name="ElementShortName">rf[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_RF/WD" type="array">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/WDSel" type="array">
+      <obj_property name="ElementShortName">WDSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WDSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/aluout" type="array">
+      <obj_property name="ElementShortName">aluout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/dm_addr" type="array">
+      <obj_property name="ElementShortName">dm_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/dm_din" type="array">
+      <obj_property name="ElementShortName">dm_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/dm_dout" type="array">
+      <obj_property name="ElementShortName">dm_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_DM/dmem" type="array">
+      <obj_property name="ElementShortName">dmem[127:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem[127:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_ctrl/DMType" type="array">
+      <obj_property name="ElementShortName">DMType[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DMType[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_DM/DMType" type="array">
+      <obj_property name="ElementShortName">DMType[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DMType[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_NPC/NPC" type="array">
+      <obj_property name="ElementShortName">NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_NPC/IMM" type="array">
+      <obj_property name="ElementShortName">IMM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sccomp_tb/U_SCCOMP/U_SCPU/U_alu/C" type="array">
+      <obj_property name="ElementShortName">C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C[31:0]</obj_property>
+   </wvobject>
+</wave_config>
